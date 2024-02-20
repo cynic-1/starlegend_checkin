@@ -20,8 +20,6 @@ const data = '0x1249c58b';
 // 发送交易的函数
 async function sendTransaction() {
   const feeData = await provider.getFeeData();
-  console.log(feeData.maxFeePerGas)
-  console.log(feeData.maxPriorityFeePerGas)
   const walletAddress = wallet.address;
   const contractAddress = '0x777b425f6bf8474b0e61f42e880d09e610a9400e'
 

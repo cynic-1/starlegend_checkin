@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2",
+    "nodemailer": "^6.9.9",
+    "web3": "^4.3.0"
+  }
+}
